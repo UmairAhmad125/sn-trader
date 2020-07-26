@@ -36,6 +36,15 @@
     max-width: 400px;
 }
 
+.foot-b {
+    border-bottom: .5px solid gray;
+}
+
+.foot-cont p,
+.copyright p {
+    color: rgb(153, 152, 152);
+}
+
 
 /* Fading animation */
 
@@ -44,6 +53,14 @@
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+.services h3 {
+    color: black;
+}
+
+.services img {
+    border-radius: 4px;
 }
 
 @-webkit-keyframes fade {
