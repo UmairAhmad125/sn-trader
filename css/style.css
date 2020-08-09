@@ -3,8 +3,20 @@
     margin-left: 1rem;
 }
 
+.nav-li li a {
+    color: rgb(41, 40, 40);
+}
+
+.nav-li li a:hover {
+    text-decoration: none;
+}
+
 .logo-img {
     width: 150px;
+}
+
+.btn-more {
+    margin-top: 40px;
 }
 
 .nav-li {
@@ -27,6 +39,7 @@
     font-size: 18px;
 }
 
+.btn-quote:hover,
 .btn-more:hover {
     background-color: red;
     color: whitesmoke;
@@ -59,8 +72,19 @@
     color: black;
 }
 
+.intro h2,
+.services h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .services img {
     border-radius: 4px;
+}
+
+.foot-cont h3 {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 @-webkit-keyframes fade {
@@ -85,3 +109,29 @@
 /* .carousel {
     max-height: 500px;
 } */
+
+
+/*Products*/
+
+.products h1 {
+    font-size: 28px;
+}
+
+.prod-statement {
+    font-size: 15px;
+}
+
+.products a h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.btn-quote {
+    background-color: white;
+    color: red;
+    border: .5px solid red;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+}
